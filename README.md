@@ -54,7 +54,7 @@ sudo udevadm control --reload-rules && sudo udevadm trigger
 Open `headset-led.py` and adjust the `ID` variable to match your headset's sink name:
 
 ```python
-ID = "alsa_output.usb-Turtle_Beach_Elo_7.1_Air_3802FFFF3402-01.analog-stereo"
+ID = "alsa_output.usb-Turtle_Beach_Elo_7.1_Air"
 ```
 
 To find your sink name, run:
